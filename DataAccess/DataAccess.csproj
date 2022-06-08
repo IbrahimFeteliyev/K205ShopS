@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Concrete\MongoDb\" />
+    <Compile Remove="Concrete\MongoDb\**" />
+    <EmbeddedResource Remove="Concrete\MongoDb\**" />
+    <None Remove="Concrete\MongoDb\**" />
   </ItemGroup>
 
   <ItemGroup>
